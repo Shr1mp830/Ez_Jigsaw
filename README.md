@@ -37,7 +37,8 @@ python -m ctf_puzzle_solver
 也可以直接双击 `run.bat`。
 
 ## 使用流程
-![Uploading 图片.png…]()
+[![屏幕截图 2026 06 07 135412](https://origin.picgo.net/2026/06/07/-2026-06-07-1354123a8f6fdadadb942c.png)](https://www.picgo.net/image/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-06-07-135412.1glHN4)
+
 
 
 
