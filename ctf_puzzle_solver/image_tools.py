@@ -253,7 +253,7 @@ def expected_cut_strengths(profile: list[float], length: int, parts: int) -> lis
 
 def seam_profile(image: Image.Image, axis: str) -> list[float]:
     rgb = Image.new("RGBA", image.size, (255, 255, 255, 255))
-    rgb.alpha_composite(image.convert("RGBA"))
+    rgb = Image.alpha_composite(rgb, image.convert("RGBA"))
     rgb = rgb.convert("RGB")
     pixels = rgb.load()
     width, height = rgb.size
