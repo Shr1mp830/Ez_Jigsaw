@@ -97,28 +97,7 @@ python -m PyInstaller --noconfirm --onefile --windowed --name Ez_Jigsaw --icon a
 dist\Ez_Jigsaw.exe
 ```
 
-## 开源到 GitHub
 
-第一次上传到自己的 GitHub 仓库：
-
-```powershell
-git init
-git add .
-git commit -m "Initial release"
-git branch -M main
-git remote add origin https://github.com/<你的用户名>/<你的仓库名>.git
-git push -u origin main
-```
-
-后续更新：
-
-```powershell
-git add .
-git commit -m "Update Ez_Jigsaw"
-git push
-```
-
-建议不要把 `build/`、`dist/`、`split_outputs/` 和临时输出图片提交到仓库；如需发布 exe，可在 GitHub Releases 上传 `dist\Ez_Jigsaw.exe`。
 
 ## GUI 命令行启动
 
