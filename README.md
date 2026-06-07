@@ -71,31 +71,6 @@ python -m ctf_puzzle_solver.cli C:\path\to\pieces -r C:\path\to\full.png -o resu
 python -m ctf_puzzle_solver.cli C:\path\to\pieces --rows 4 --cols 7 -o result.png
 ```
 
-## 算法回归测试
-
-```powershell
-python scripts\smoke_test.py
-```
-
-## 打包 Windows EXE
-
-安装打包工具：
-
-```powershell
-python -m pip install pyinstaller
-```
-
-生成单文件 exe：
-
-```powershell
-python -m PyInstaller --noconfirm --onefile --windowed --name Ez_Jigsaw --icon assets\ez_jigsaw.ico build_exe.py
-```
-
-打包结果在：
-
-```text
-dist\Ez_Jigsaw.exe
-```
 
 
 
